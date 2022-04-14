@@ -81,7 +81,7 @@ int main(int argc, char *argv[])
     }
     scene.setSceneRect(scene.itemsBoundingRect());
 
-    //OpenGL rendering aus https://doc.qt.io/qt-5/graphicsview.html#opengl-rendering
+    //use OpenGL rendering aus https://doc.qt.io/qt-5/graphicsview.html#opengl-rendering
     //die Skalierung der App ist sofort richtig (größer)
     QGraphicsView view(&scene);
     QOpenGLWidget *gl = new QOpenGLWidget();
